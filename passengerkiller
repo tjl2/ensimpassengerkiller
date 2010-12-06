@@ -69,7 +69,7 @@ function debug {
 
 
 # Main
-application=$1; shift 1
+domain=$1; shift 1
 if [ "$domain" = "" ] || [ "$domain" = "-h" ]; then
   usage
 fi
