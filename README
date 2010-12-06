@@ -1,0 +1,9 @@
+Use this script to kill off all running Passenger instances on an Ensim server.
+
+This is useful if you find that a standard Passenger restart is leaving old instances lying around.
+
+Example usage:
+  passengerkiller domain
+
+When using Rails 3, you will likely need to specify "-f rack":
+  passengerkiller appname -f rack
